@@ -7,210 +7,150 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Meu portfólio</title>
+    <title>Portfólio de Victor</title>
 </head>
 
 <body>
-    <header class="container text-center">
-        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
-            srcset="">
-        <p class="lead">Eu sou Fernanda_</p>
-        <h1>Eu ensino Programação</h1>
-        <p>Sou Engenheira de Computação e Pedagoga. Ensino pensamento computacional para estudantes do Ensino
-            Fundamental e Médio. Ensino sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos
-            que já desenvolvi!</p>
-        <p>Minhas habilidades</p>
+
+    <header class="container text-center py-5">
+        <img src="img/avatar-victor.png" alt="Avatar do Victor" class="rounded-circle" width="150" height="150">
+        <p class="lead mt-3">Olá, eu sou o Victor</p>
+        <h1 class="display-4">Desenvolvedor em Formação</h1>
+        <p class="col-md-8 mx-auto">
+            Apaixonado por tecnologia e resolução de problemas. Atualmente, estou focado em aprimorar minhas habilidades em desenvolvimento web e ciência de dados. Explore meus projetos abaixo!
+        </p>
+        <p class="mt-4"><strong>Minhas principais habilidades:</strong></p>
         <div>
-            <p class="badge bg-secondary">HTML</p>
-            <p class="badge bg-secondary">CSS</p>
-            <p class="badge bg-secondary">JavaScript</p>
-            <p class="badge bg-secondary">Scratch</p>
+            <span class="badge bg-primary">Python</span>
+            <span class="badge bg-success">JavaScript</span>
+            <span class="badge bg-danger">HTML5</span>
+            <span class="badge bg-info text-dark">CSS3</span>
+            <span class="badge bg-warning text-dark">SQL</span>
+            <span class="badge bg-secondary">Git & GitHub</span>
         </div>
     </header>
+
     <main class="container mt-5">
-        <h2>Meus projetos</h2>
+        <h2 class="text-center mb-4">Meus Projetos</h2>
         <div class="row">
-            <!-- Projeto 1 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
-                    <div class="card-body">
-                        <h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
-                        <p class="card-text">Este projeto é uma página web que apresenta uma lista dos meus livros
-                            favoritos, incluindo informações sobre os autores, datas de publicação e links para compra
-                            na Amazon. A página é estilizada com CSS para uma visualização agradável e usa fontes
-                            externas do Google Fonts.
-                        </p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
-                            o projeto</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Projeto 2 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
-                    <div class="card-body">
-                        <h5 class="card-title">Decidindo o Futuro: Uma Jornada Interativa sobre a Inteligência
-                            Artificial</h5>
-                        <p class="card-text">Este projeto é um jogo interativo baseado em navegador que explora o
-                            impacto e as implicações da Inteligência Artificial (IA) na sociedade, permitindo que as
-                            pessoas jogadoras façam escolhas que influenciam o desenrolar de uma narrativa sobre o
-                            futuro da IA.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
-                            o projeto</button>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/projeto-task-manager.png" class="card-img-top" alt="Imagem do projeto Gerenciador de Tarefas">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">TaskFlow: Gerenciador de Tarefas</h5>
+                        <p class="card-text">Uma aplicação web para ajudar na organização de tarefas diárias. Permite adicionar, remover e marcar tarefas como concluídas, com dados salvos localmente no navegador.</p>
+                        <button type="button" class="btn btn-link mt-auto" data-bs-toggle="modal" data-bs-target="#modal1">
+                            Veja os detalhes
+                        </button>
                     </div>
                 </div>
             </div>
 
-            <!-- Projeto 3 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
-                    <div class="card-body">
-                        <h5 class="card-title">Explorando o Universo: Uma Aventura Interativa em Astronomia com Scratch
-                        </h5>
-                        <p class="card-text">EEste projeto Scratch cria uma experiência interativa educativa sobre
-                            astronomia, permitindo aos usuários explorar informações sobre constelações, eclipses, e a
-                            forma da Terra através de cenários dinâmicos e diálogos informativos.
-                        </p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
-                            o projeto</button>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/projeto-data-analysis.png" class="card-img-top" alt="Imagem do projeto de Análise de Dados">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Análise de Vendas com Python</h5>
+                        <p class="card-text">Um projeto de análise de dados que utiliza Python com as bibliotecas Pandas e Matplotlib para processar um conjunto de dados de vendas e extrair insights visuais sobre tendências de mercado.</p>
+                        <button type="button" class="btn btn-link mt-auto" data-bs-toggle="modal" data-bs-target="#modal2">
+                            Veja os detalhes
+                        </button>
                     </div>
                 </div>
             </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/projeto-discord-bot.png" class="card-img-top" alt="Imagem do projeto de Bot para Discord">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bot Moderador para Discord</h5>
+                        <p class="card-text">Um bot para Discord desenvolvido em Python que automatiza tarefas de moderação, como dar as boas-vindas a novos membros, gerenciar cargos e responder a comandos personalizados.</p>
+                        <button type="button" class="btn btn-link mt-auto" data-bs-toggle="modal" data-bs-target="#modal3">
+                            Veja os detalhes
+                        </button>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </main>
 
-    <!-- Modal 1 -->
-    <div class="modal" id="modal1" tabindex="-1">
-        <div class="modal-dialog">
+    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <h5 class="modal-title" id="modal1Label">TaskFlow: Gerenciador de Tarefas</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>O projeto é uma página web criada com HTML e CSS, destinada a exibir uma coleção pessoal de
-                        livros favoritos. O objetivo é criar um ambiente virtual onde seja possível compartilhar
-                        seus livros preferidos, fornecendo uma descrição breve de cada um, incluindo o autor, o ano
-                        de publicação e uma opção de compra.</p>
-                    <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
-                        enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
-                        disposição dos elementos.</p>
-                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
-                        principal (.container) que apresenta o propósito do site e a coleção de livros em uma seção
-                        flexível (.livros). Cada livro é destacado em seu próprio contêiner (.livro), mostrando uma
-                        imagem da capa, detalhes do livro e um link de compra. O design responsivo é garantido pelo
-                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
-                        tela.</p>
-                    <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
-                        fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.
-                        O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
-                        esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
-                        experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
-                        a atmosfera acolhedora do site, incentivando a exploração da coleção de livros.</p>
-                    <img src="img/projeto-1.png" class="img-fluid w-100"
-                        alt="Imagem representativa do projeto de uma biblioteca online">
+                    <img src="img/projeto-task-manager.png" class="img-fluid w-100 mb-3" alt="Imagem detalhada do gerenciador de tarefas">
+                    <p>Este projeto é uma Single Page Application (SPA) desenvolvida com <strong>HTML5, CSS3 e JavaScript puro</strong>. O objetivo foi criar uma interface limpa e intuitiva para o gerenciamento de tarefas do dia a dia.</p>
+                    <p>A principal funcionalidade implementada é a persistência de dados. Utilizei a API de <code>localStorage</code> do navegador para garantir que as tarefas do usuário não se percam ao fechar ou recarregar a página. Isso proporciona uma experiência de usuário contínua e eficaz.</p>
+                    <p>A manipulação dinâmica do DOM com JavaScript foi fundamental para criar a interatividade. Funções para adicionar, excluir e marcar tarefas como concluídas atualizam a interface em tempo real, sem a necessidade de recarregar a página. O CSS foi usado para criar um design responsivo, que se adapta bem a desktops e dispositivos móveis.</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
-                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 2 -->
-    <div class="modal" id="modal2" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>O projeto consiste em uma aplicação web interativa, desenvolvida com HTML, CSS, e JavaScript, que
-                        simula uma experiência narrativa centrada no tema da Inteligência Artificial. O objetivo é
-                        engajar os jogadores em um cenário fictício que aborda o avanço da IA e suas possíveis
-                        consequências para a humanidade, destacando a importância da reflexão ética sobre a tecnologia.
-                    </p>
-                    <p>O HTML estrutura o conteúdo da página, dividindo-o em seções como a tela inicial, caixa de
-                        perguntas, alternativas de resposta, e o resultado final baseado nas escolhas do jogador. O CSS
-                        é utilizado para estilizar a página, empregando um esquema de cores futurista e layout
-                        responsivo para melhorar a experiência do usuário. JavaScript é usado para adicionar
-                        interatividade ao jogo, manipulando o DOM para atualizar o conteúdo da página conforme as
-                        escolhas do jogador, e determinando o fluxo da narrativa através de uma série de perguntas e
-                        respostas.</p>
-                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
-                        principal (.container) que apresenta o propósito do site e a coleção de livros em uma seção
-                        flexível (.livros). Cada livro é destacado em seu próprio contêiner (.livro), mostrando uma
-                        imagem da capa, detalhes do livro e um link de compra. O design responsivo é garantido pelo
-                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
-                        tela.</p>
-                    <p>Os scripts JavaScript incluem módulos para gerar nomes aleatórios, definir as perguntas e as
-                        lógicas de jogo, como iniciar o jogo, apresentar perguntas e alternativas, processar as escolhas
-                        dos jogadores, e exibir o resultado final. Este design modular facilita a manutenção e a
-                        expansão futura do jogo. A importância das ferramentas utilizadas (HTML, CSS, JavaScript) reside
-                        na criação de uma experiência interativa que não apenas entretém, mas também educa os jogadores
-                        sobre a complexidade ética e social da IA, incentivando a reflexão crítica sobre o papel da
-                        tecnologia em nossas vidas.
-                    </p>
-                    <img src="img/projeto-2.png" class="img-fluid w-100"
-                        alt="Imagem representativa do projeto de uma biblioteca online">
-                </div>
-                <div class="modal-footer">
-                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
-                        vivo</a>
-                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
-                        projeto</a>
+                    <a href="#" class="btn btn-primary">Ver projeto ao vivo</a>
+                    <a href="#" class="btn btn-secondary">Ver código no GitHub</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Modal 3 -->
-    <div class="modal" id="modal3" tabindex="-1">
-        <div class="modal-dialog">
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <h5 class="modal-title" id="modal2Label">Análise de Vendas com Python</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>O projeto é uma aplicação educativa interativa focada em ensinar conceitos básicos de
-                        astronomia. Utiliza uma série de scripts associados a diferentes atores (sprites) e
-                        cenários para criar uma experiência de aprendizado envolvente. O objetivo é familiarizar
-                        os usuários com tópicos como as fases da Lua, eclipses, a visibilidade de diferentes
-                        constelações dependendo da localização geográfica na Terra, e a forma da Terra, através
-                        de interações e visualizações dinâmicas.</p>
-                    <p>Cada ator no projeto possui scripts que definem seu comportamento em resposta a eventos
-                        específicos, como o início do programa (quando a bandeira é clicada), cliques do
-                        usuário, ou mensagens recebidas. Estes eventos desencadeiam ações como mudanças de
-                        cenário, movimentos de atores, exibição ou ocultação de atores, e a apresentação de
-                        diálogos informativos. Por exemplo, ao clicar em determinados atores, os usuários podem
-                        "receber" uma prova, o que leva a uma mudança de cenário e a exibição de informações
-                        relevantes ou a visualização de uma constelação específica.</p>
-                    <p>A importância das ferramentas utilizadas, como os blocos de código visual do Scratch,
-                        reside na sua acessibilidade e na capacidade de engajar aprendizes de diferentes idades
-                        no pensamento computacional e na exploração de conceitos científicos de forma
-                        interativa. O uso de cenários, movimentos, e diálogos dinâmicos ajuda a criar uma
-                        experiência de aprendizado mais rica e memorável, encorajando os usuários a explorar e
-                        interagir com o conteúdo de maneira ativa, em vez de passivamente.</p>
-                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                    <img src="img/projeto-data-analysis.png" class="img-fluid w-100 mb-3" alt="Gráficos gerados pela análise de dados">
+                    <p>Neste projeto, mergulhei no mundo da ciência de dados utilizando <strong>Python</strong> e suas poderosas bibliotecas. O objetivo era analisar um conjunto de dados de vendas para identificar padrões, produtos mais vendidos e o desempenho de vendas ao longo do tempo.</p>
+                    <p>Utilizei a biblioteca <strong>Pandas</strong> para carregar, limpar e manipular os dados. A etapa de limpeza foi crucial para tratar valores ausentes e garantir a consistência das informações antes da análise.</p>
+                    <p>Com os dados prontos, usei <strong>Matplotlib</strong> e <strong>Seaborn</strong> para criar visualizações claras e informativas, como gráficos de barras, gráficos de linha e heatmaps. Essas visualizações foram essenciais para comunicar os insights encontrados de forma eficaz. O projeto foi desenvolvido em um ambiente de Jupyter Notebook para facilitar a exploração iterativa dos dados.</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
+                    <a href="#" class="btn btn-primary">Ver análise completa</a>
+                    <a href="#" class="btn btn-secondary">Ver código no GitHub</a>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="container py-5">
-        <h2>Entre em contato</h2>
-        <div>
-            <i class="bi bi-github"></i>
-            <a href="https://github.com/femascheti">GitHub</a>
+
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">Bot Moderador para Discord</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/projeto-discord-bot.png" class="img-fluid w-100 mb-3" alt="Interface do Discord com o bot em ação">
+                    <p>Este projeto foi minha introdução à automação e ao desenvolvimento de aplicações backend com <strong>Python</strong>. O objetivo era criar um bot funcional para um servidor do Discord, capaz de automatizar tarefas de moderação e aumentar o engajamento da comunidade.</p>
+                    <p>Utilizei a biblioteca <code>discord.py</code>, um wrapper de API assíncrono que facilita a comunicação com a API do Discord. Implementei funcionalidades como:</p>
+                    <ul>
+                        <li><strong>Mensagens de boas-vindas:</strong> Saudar novos membros em um canal específico.</li>
+                        <li><strong>Sistema de cargos:</strong> Permitir que usuários se autoatribuam cargos através de reações.</li>
+                        <li><strong>Comandos personalizados:</strong> Comandos simples, como exibir regras do servidor ou links úteis.</li>
+                    </ul>
+                    <p>A importância deste projeto foi aprender a trabalhar com APIs externas, lidar com programação assíncrona (<code>async</code>/<code>await</code>) e entender como gerenciar um projeto que roda continuamente em um servidor.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-secondary">Ver código no GitHub</a>
+                </div>
+            </div>
         </div>
-        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </div>
+
+    <footer class="container text-center py-5">
+        <h2 class="mb-3">Entre em Contato</h2>
+        <div>
+            <a href="https://github.com/seu-usuario-aqui" target="_blank" class="text-dark fs-4 me-3"><i class="bi bi-github"></i></a>
+            <a href="https://linkedin.com/in/seu-usuario-aqui" target="_blank" class="text-dark fs-4 me-3"><i class="bi bi-linkedin"></i></a>
+            <a href="mailto:seu-email@exemplo.com" class="text-dark fs-4"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+        <p class="my-4">&copy; 2025. Produzido por Victor</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
