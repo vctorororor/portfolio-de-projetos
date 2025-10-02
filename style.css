@@ -1,7 +1,7 @@
-/* Importando uma fonte profissional do Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-/* Variáveis de Cor para facilitar a customização */
+
 :root {
     --cor-primaria: #0d1117;    /* Cor de fundo principal (quase preto) */
     --cor-secundaria: #161b22; /* Cor de fundo para os cards */
@@ -12,7 +12,6 @@
     --cor-sombra: rgba(0, 0, 0, 0.4);
 }
 
-/* Estilos Globais */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--cor-primaria);
@@ -118,7 +117,7 @@ header .lead {
     opacity: 0.8;
 }
 
-/* Estilo do Footer */
+
 footer a {
     transition: color 0.3s ease;
 }
@@ -127,7 +126,7 @@ footer a:hover {
     color: var(--cor-destaque) !important;
 }
 
-/* Animação de Scroll Reveal (inicialmente escondido) */
+
 .reveal {
     position: relative;
     transform: translateY(100px);
@@ -139,3 +138,4 @@ footer a:hover {
     transform: translateY(0px);
     opacity: 1;
 }
+
